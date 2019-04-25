@@ -11,7 +11,7 @@ class Activity extends  Model
 
     public $description;
 
-    public $dste_start;
+    public $date_start;
 
     public $is_blocked;
 

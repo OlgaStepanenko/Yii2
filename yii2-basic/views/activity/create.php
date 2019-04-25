@@ -23,6 +23,6 @@
             <button class="btn-default" type="submit">Создать</button>
         </div>
 
-        <?php $form=\yii\bootstrap\ActiveForm::end; ?>
+        <?php $form=\yii\bootstrap\ActiveForm::end(); ?>
     </div>
 </div>
