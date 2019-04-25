@@ -7,7 +7,7 @@ $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
-    'lenguage' => 'ru-RU',
+    'language' => 'ru-RU',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
@@ -22,7 +22,7 @@ $config = [
         'activity' => ['class'=>app\components\ActivityComponent::class, 'activity_class'=>'app\models\Activity'],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => '',
+            'cookieValidationKey' => 'dfah;had;lkdspio;ewrf;lkvgh;o',
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',

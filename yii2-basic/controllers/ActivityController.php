@@ -4,15 +4,14 @@
 namespace app\controllers;
 
 use app\base\BaseController;
-use app\model\Activity;
-use app\models\Activity;
+use app\controllers\actions\ActivityCreatAction;
 class ActivityController extends BaseController
 {
     public function actions()
     {
         return [
-            'create'=>['class'=>ActivityCreateAction::class,'name' => 'Ольга'],
-            'new'=>['class'=>ActivityCreateAction::class, 'name' => 'Андрей']
+            'create'=>['class'=>ActivityCreatAction::class,'name' => 'Ольга'],
+            'new'=>['class'=>ActivityCreatAction::class, 'name' => 'Андрей']
         ];
     }
 
